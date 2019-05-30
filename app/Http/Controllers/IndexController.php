@@ -29,7 +29,7 @@ class IndexController extends Controller
     }
     public function show($category){
         // $news = News::orderBy('id','desc')->where('category_id', $category)->get();
-        $news = News::orderBy('id','desc')->where('category_id', $category)->paginate(2);
+        $news = News::orderBy('id','desc')->where('category_id', $category)->paginate(3);
 
         // $news->paginate(5);
         // $news = News::paginate(5);
