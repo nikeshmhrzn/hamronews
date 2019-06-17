@@ -45,7 +45,7 @@
                                         <li style="color:black !important;"><i class="fa fa-clock-o"></i>{{$new->created_at->diffForHumans()}}</li>
                                         <li><i class="fa fa-comments"></i> 33</li>
                                     </ul>
-                                <p>{{$new->description}}</p>
+                                <p style="font-size:19px;">{{$new->description}}</p>
 
                             </article>
                             <!-- /ARTICLE POST -->

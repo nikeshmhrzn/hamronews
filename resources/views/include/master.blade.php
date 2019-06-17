@@ -93,13 +93,15 @@
         <a href="#" class="logo"><img src="{{asset('./img/logo-alt.png')}}" alt=""></a>
     </div>
     <ul class="main-nav nav navbar-nav">
-        <li>
-            @foreach($categories as $category)
-            {{-- <li> --}}
-            <a class="navbar-brand" href="{{url('Categories/' .$category->id)}}">{{$category->name}}</a>
+
+        @foreach($categories as $category)
+            <li class="{{ request()->segment(2)==$category->id ? 'active' : ''}}">
+
+                <a class="navbar-brand" href="{{url('Categories/' .$category->id)}}">{{$category->name}}</a>
+            </li>
 
         @endforeach
-    </li>
+
     </ul>
 </nav>
 <div class="button-nav">

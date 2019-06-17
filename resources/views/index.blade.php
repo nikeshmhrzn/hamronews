@@ -22,7 +22,7 @@
                 <h2 class="article-title"><a href="{{url('More/'.$image->id)}}">{{$image->headlines}}</a></h2>
 					<ul class="article-meta">
 						<li style="color:black !important;" ><i class="fa fa-clock-o"></i> {{$image->created_at->diffForHumans()}}</li>
-						<li><i class="fa fa-comments"></i> 33</li>
+						<li><i class="fa fa-comments"></i> 5</li>
 					</ul>
 				</div>
 			</article>
@@ -84,7 +84,7 @@
                                             <h4 class="article-title"><a href="{{url('More/'.$trending->id)}}">{{$trending->headlines}}</a></h4>
 												<ul class="article-meta">
 													<li style="color:black !important;"><i class="fa fa-clock-o"></i> {{$trending->created_at->diffForHumans()}} </li>
-													<li><i class="fa fa-comments"></i> 33</li>
+													<li><i class="fa fa-comments"></i> 31</li>
 												</ul>
 											</div>
                                         </article>
@@ -147,7 +147,7 @@
                                     <h3 class="article-title"><a href="{{url('More/'.$politics->id)}}">{{$politics->headlines}}</a></h3>
 										<ul class="article-meta">
 											<li style="color:black !important;"><i class="fa fa-clock-o"></i>{{$politics->created_at->diffForHumans()}} </li>
-											<li><i class="fa fa-comments"></i> 33</li>
+											<li><i class="fa fa-comments"></i> 15</li>
 										</ul>
                                     <p>{{Str::limit($politics->description,180)}}</p>
 									</div>
@@ -169,7 +169,7 @@
 									<h4 class="article-title"><a href="{{url('More/'.$politics->id)}}">{{$politics->headlines}}</a></h4>
 										<ul class="article-meta">
 											<li style="color:black !important;"><i class="fa fa-clock-o"></i>{{$politics->created_at->diffForHumans()}}</li>
-											<li><i class="fa fa-comments"></i> 33</li>
+											<li><i class="fa fa-comments"></i> 41</li>
 										</ul>
 									</div>
 								</article>
@@ -201,7 +201,7 @@
                                     <h3 class="article-title"><a href="{{url('More/'.$economics->id)}}">{{$economics->headlines}}</a></h3>
 										<ul class="article-meta">
 											<li style="color:black !important;"><i class="fa fa-clock-o"></i>{{$economics->created_at->diffForHumans()}}</li>
-											<li><i class="fa fa-comments"></i> 33</li>
+											<li><i class="fa fa-comments"></i> 5</li>
 										</ul>
                                     <p>{{Str::limit($economics->description,180)}}</p>
 									</div>
@@ -221,7 +221,7 @@
                                     <h4 class="article-title"><a href="{{url('More/'.$economics->id)}}">{{$economics->headlines}}</a></h4>
 										<ul class="article-meta">
 											<li style="color:black !important;"><i class="fa fa-clock-o"></i> {{$economics->created_at->diffForHumans()}}</li>
-											<li><i class="fa fa-comments"></i> 33</li>
+											<li><i class="fa fa-comments"></i> 3</li>
 										</ul>
 									</div>
 								</article>
@@ -263,7 +263,7 @@
                                     <h3 class="article-title"><a href="{{url('More/'.$fashion->id)}}">{{$fashion->headlines}}</a></h3>
 										<ul class="article-meta">
 											<li style="color:black !important;"><i class="fa fa-clock-o"></i> {{$fashion->created_at->diffForHumans()}}</li>
-											<li><i class="fa fa-comments"></i> 33</li>
+											<li><i class="fa fa-comments"></i> 12</li>
 										</ul>
                                     <p>{{Str::limit($fashion->description,180)}}</p>
 									</div>
